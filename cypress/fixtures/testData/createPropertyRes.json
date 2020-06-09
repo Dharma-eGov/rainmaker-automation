@@ -9,8 +9,8 @@
   },
   "Properties": [
     {
-      "id": "2902f043-5755-4248-9790-9899e72c1d34",
-      "propertyId": "PB-PT-2020-06-08-005250",
+      "id": "c6d3ef75-2834-4efe-993e-ead44731acce",
+      "propertyId": "PB-PT-2020-06-09-005273",
       "surveyId": null,
       "linkedProperties": null,
       "tenantId": "pb.amritsar",
@@ -21,7 +21,7 @@
         "tenantId": "pb.amritsar",
         "doorNo": "1/8",
         "plotNo": null,
-        "id": "9f9832d5-cd24-43e3-808a-070e4ca8f7f9",
+        "id": "27ea7849-ac87-4697-b543-dadf0e920218",
         "landmark": null,
         "city": "Amritsar",
         "district": null,
@@ -47,7 +47,7 @@
         },
         "additionalDetails": null
       },
-      "acknowldgementNumber": "PB-AC-2020-06-08-004734",
+      "acknowldgementNumber": "PB-AC-2020-06-09-004758",
       "propertyType": "BUILTUP.SHAREDPROPERTY",
       "ownershipCategory": "INDIVIDUAL.SINGLEOWNER",
       "owners": [
@@ -90,11 +90,11 @@
           "identificationMark": null,
           "photo": null,
           "createdBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
-          "createdDate": 1591615340803,
+          "createdDate": 1591695157295,
           "lastModifiedBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
-          "lastModifiedDate": 1591615340803,
+          "lastModifiedDate": 1591695157295,
           "tenantId": "pb.amritsar",
-          "ownerInfoUuid": "5c629bef-c186-4a73-93ea-3eed83abe686",
+          "ownerInfoUuid": "e2315fa1-b8fb-448a-bf11-a1f9f016dbfc",
           "isPrimaryOwner": null,
           "ownerShipPercentage": null,
           "ownerType": "NONE",
@@ -114,7 +114,7 @@
       "channel": "CFC_COUNTER",
       "documents": [
         {
-          "id": "a3b8c5c2-2ed4-45bf-8458-c0e8e16c1dc1",
+          "id": "d1305a6f-3804-487b-a00f-285dc8af7dda",
           "documentType": "OWNER.ADDRESSPROOF.ELECTRICITYBILL",
           "fileStoreId": "ee18cdbb-84f9-4ccd-b7bc-d83e1eff2ff5",
           "documentUid": "ee18cdbb-84f9-4ccd-b7bc-d83e1eff2ff5",
@@ -122,7 +122,7 @@
           "status": "ACTIVE"
         },
         {
-          "id": "c2b60269-2dd6-4f19-b1a9-55f594359a23",
+          "id": "1c75ddd7-c05f-4df1-ab22-d6c00642e662",
           "documentType": "OWNER.IDENTITYPROOF.AADHAAR",
           "fileStoreId": "64ebe2c7-b004-4355-adf7-1427a1be5509",
           "documentUid": "64ebe2c7-b004-4355-adf7-1427a1be5509",
@@ -130,7 +130,7 @@
           "status": "ACTIVE"
         },
         {
-          "id": "2ba9616d-3bd7-4f6d-84a5-f7dea7c15d09",
+          "id": "bfc704c3-1dba-47f4-91e6-a2602b3b78d3",
           "documentType": "OWNER.REGISTRATIONPROOF.SALEDEED",
           "fileStoreId": "3763aaed-fe25-43de-8e91-d2a503645fa5",
           "documentUid": "3763aaed-fe25-43de-8e91-d2a503645fa5",
@@ -138,7 +138,7 @@
           "status": "ACTIVE"
         },
         {
-          "id": "bed8f7ff-d18c-4dc8-b578-4d1587891b1b",
+          "id": "e2d03bbd-2965-4b6f-bab6-597adc398784",
           "documentType": "OWNER.USAGEPROOF.ELECTRICITYBILL",
           "fileStoreId": "3fccf33e-2e54-4fc3-9127-544720455ff0",
           "documentUid": "3fccf33e-2e54-4fc3-9127-544720455ff0",
@@ -146,7 +146,7 @@
           "status": "ACTIVE"
         },
         {
-          "id": "85326943-bdc7-4167-8db2-efde4878553f",
+          "id": "960c6f9d-4bcf-476f-8376-f133cb8a69f8",
           "documentType": "OWNER.CONSTRUCTIONPROOF.BPACERTIFICATE",
           "fileStoreId": "6fe3cd06-98cb-48f6-b02b-ea1bff2af0b9",
           "documentUid": "6fe3cd06-98cb-48f6-b02b-ea1bff2af0b9",
@@ -156,7 +156,7 @@
       ],
       "units": [
         {
-          "id": "7ff83b9e-9641-45e1-9bd0-a89afb588458",
+          "id": "04999e0e-a7de-47cc-a05f-c52e66f8c47c",
           "tenantId": "pb.amritsar",
           "floorNo": 1,
           "unitType": null,
@@ -185,8 +185,8 @@
       "auditDetails": {
         "createdBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
         "lastModifiedBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
-        "createdTime": 1591615340709,
-        "lastModifiedTime": 1591615340709
+        "createdTime": 1591695157199,
+        "lastModifiedTime": 1591695157199
       },
       "workflow": null
     }

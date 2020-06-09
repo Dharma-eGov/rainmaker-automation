@@ -10,20 +10,20 @@
   "Licenses": [
     {
       "comment": null,
-      "id": "88865d5b-766a-4635-b74f-e86e7367811f",
+      "id": "c21eb321-94af-4b2b-9260-da1b987ec896",
       "tenantId": "pb.nawanshahr",
       "businessService": "TL",
       "licenseType": "PERMANENT",
       "applicationType": "NEW",
       "workflowCode": "NewTL",
       "licenseNumber": null,
-      "applicationNumber": "PB-TL-2020-05-29-006741",
+      "applicationNumber": "PB-TL-2020-06-09-006919",
       "oldLicenseNumber": null,
       "propertyId": null,
       "oldPropertyId": null,
       "accountId": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
       "tradeName": "Dharma Traders",
-      "applicationDate": 1590741276053,
+      "applicationDate": 1591683223056,
       "commencementDate": 1590085799000,
       "issuedDate": null,
       "financialYear": "2020-21",
@@ -34,7 +34,7 @@
       "wfDocuments": null,
       "status": "INITIATED",
       "tradeLicenseDetail": {
-        "id": "6ce639b8-6b62-41c5-b7fe-fc3476ab2041",
+        "id": "3ceebeaa-7651-4c0f-9d42-3d269257f5b6",
         "surveyNo": null,
         "subOwnerShipCategory": "INDIVIDUAL.SINGLEOWNER",
         "structureType": "IMMOVABLE.PUCCA",
@@ -84,9 +84,9 @@
             "identificationMark": null,
             "photo": null,
             "createdBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
-            "createdDate": 1590741276114,
+            "createdDate": 1591683223129,
             "lastModifiedBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
-            "lastModifiedDate": 1590741276114,
+            "lastModifiedDate": 1591683223129,
             "otpReference": null,
             "tenantId": "pb",
             "isPrimaryOwner": null,
@@ -100,7 +100,7 @@
         ],
         "channel": null,
         "address": {
-          "id": "d95567cf-8293-4b61-8b8b-bbadeddf24c5",
+          "id": "97579c31-4ef3-437e-a887-24192cf31577",
           "tenantId": "pb.nawanshahr",
           "doorNo": "1/123",
           "latitude": null,
@@ -128,7 +128,7 @@
         },
         "tradeUnits": [
           {
-            "id": "4fd079d7-ecda-4241-96d4-1dd478081cb4",
+            "id": "49a8704c-a7a0-42b9-b574-32156087daaa",
             "tenantId": "pb.nawanshahr",
             "active": true,
             "tradeType": "GOODS.RETAIL.TST-82",
@@ -139,7 +139,7 @@
         ],
         "accessories": [
           {
-            "id": "4a99ee63-db8b-49c4-ad50-5eaf80c058d6",
+            "id": "ed0e93c4-c29b-41e2-bc68-c3b1338b4033",
             "tenantId": "pb.nawanshahr",
             "active": true,
             "accessoryCategory": "ACC-2",
@@ -156,8 +156,8 @@
         "auditDetails": {
           "createdBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
           "lastModifiedBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
-          "createdTime": 1590741276053,
-          "lastModifiedTime": 1590741276053
+          "createdTime": 1591683223056,
+          "lastModifiedTime": 1591683223056
         }
       },
       "calculation": {
@@ -172,25 +172,25 @@
           }
         ],
         "tradeTypeBillingIds": {
-          "id": "7c3cde55-99eb-4e9c-887b-e797822d8cb2",
+          "id": "b7dacfef-db29-4ae9-b61b-aa188246fe76",
           "fee": 1000,
           "billingSlabIds": [
-            "d192213e-555f-451f-ad6f-0e59e1c222c1|0|4fd079d7-ecda-4241-96d4-1dd478081cb4"
+            "d192213e-555f-451f-ad6f-0e59e1c222c1|0|49a8704c-a7a0-42b9-b574-32156087daaa"
           ]
         },
         "accessoryBillingIds": {
-          "id": "92193d34-a7e2-4db2-a2ac-ed57710590da",
+          "id": "c22d2730-15a3-48ce-b695-1b6cb8efe0bc",
           "fee": 1500,
           "billingSlabIds": [
-            "ca758764-00bb-4b94-8221-b09de77370f3|0|4a99ee63-db8b-49c4-ad50-5eaf80c058d6"
+            "ca758764-00bb-4b94-8221-b09de77370f3|0|ed0e93c4-c29b-41e2-bc68-c3b1338b4033"
           ]
         }
       },
       "auditDetails": {
         "createdBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
         "lastModifiedBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
-        "createdTime": 1590741276053,
-        "lastModifiedTime": 1590741276053
+        "createdTime": 1591683223056,
+        "lastModifiedTime": 1591683223056
       },
       "fileStoreId": null
     }

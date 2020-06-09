@@ -5,6 +5,9 @@ import * as tradeUpdateData from '@fixtures/testData/updateTrade.json'
 import * as documentsData from '@fixtures/testData/wfDocuments.json'
 import * as updateResData from '@fixtures/testData/updateTradeRes.json'
 import * as createPayment from '@fixtures/testData/createPayment.json'
+import * as propertyData from '@fixtures/testData/addProperty.json'
+import * as updatePropertyData from '@fixtures/testData/updateProperty.json'
+import * as newPropertyData from '@fixtures/testData/createPropertyRes.json'
 
 export function createTradeLicense(usertype) {
     let access_token = ''
@@ -81,6 +84,40 @@ export function searchTLApplication(usertype, status) {
                     expect(response.status).equal(200)
                     expect(response.body.Licenses[0].status).equal(status)
                 });
+        })
+}
+
+export function propertyForward(usertype,action,status) {
+
+    let user = usertype
+    let ptaccess_token, ackNumber = ''
+    cy.signin(user)
+        .then((response) => {
+            expect(response.status).equal(200)
+            ptaccess_token = response.body.access_token
+            // expect(response.body.UserRequest.roles[0].code).equal('PT_DOC_VERIFIER');
+            let uProperty = updatePropertyData.valid
+            cy.readFile('cypress/fixtures/testData/createPropertyRes.json').then((response) => {
+
+                uProperty.Property = response.Properties[0]
+                ackNumber = response.Properties[0].acknowldgementNumber
+                uProperty.Property.workflow = updatePropertyData.workflow
+
+                console.log(uProperty.Property.propertyId)
+                console.log('ack number : ' + ackNumber)
+                uProperty.Property.workflow.businessId = ackNumber
+                uProperty.Property.workflow.action=action
+                uProperty.RequestInfo.authToken = ptaccess_token
+            })
+            cy.updateProperty(uProperty)
+                .then((response) => {
+                    expect(response.status).equal(200)
+                    console.log(response.body.Properties[0].propertyId)
+                    expect(response.body.Properties[0].status).equal(status)
+
+                })
+
+
         })
 }
 

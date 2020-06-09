@@ -196,5 +196,18 @@
                 "assignes": null
             }
         }
+    },
+    "workflow": {
+        "id": null,
+        "tenantId": "pb.amritsar",
+        "businessService": "PT.CREATE",
+        "businessId": "",
+        "action": "VERIFY",
+        "moduleName": "PT",
+        "state": null,
+        "comment": null,
+        "documents": null,
+        "assignes": null
+
     }
 }
