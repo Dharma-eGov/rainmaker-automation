@@ -1,0 +1,200 @@
+{
+    "valid": {
+        "RequestInfo": {
+            "apiId": "Mihy",
+            "ver": ".01",
+            "action": "",
+            "did": "1",
+            "key": "",
+            "msgId": "20170310130900|en_IN",
+            "requesterId": "",
+            "authToken": "29d77a7e-ad0d-460b-9e53-d21a1f3bdbdb"
+        },
+        "Property": {
+            "id": "e3926d76-f7cd-4b29-82b8-822d29f2cbcd",
+            "propertyId": "PB-PT-2020-06-08-005217",
+            "surveyId": null,
+            "linkedProperties": null,
+            "tenantId": "pb.amritsar",
+            "accountId": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
+            "oldPropertyId": null,
+            "status": "INWORKFLOW",
+            "address": {
+                "tenantId": "pb.amritsar",
+                "doorNo": "1/8",
+                "plotNo": null,
+                "id": "c8db8703-db99-4dbb-9791-3fef041e029d",
+                "landmark": null,
+                "city": "Amritsar",
+                "district": null,
+                "region": null,
+                "state": null,
+                "country": null,
+                "pincode": null,
+                "buildingName": "Veda house",
+                "street": "JK Street",
+                "locality": {
+                    "code": "SUN04",
+                    "name": "Ajit Nagar - Area1",
+                    "label": "Locality",
+                    "latitude": null,
+                    "longitude": null,
+                    "area": "Area1",
+                    "children": [],
+                    "materializedPath": null
+                },
+                "geoLocation": {
+                    "latitude": 0,
+                    "longitude": 0
+                },
+                "additionalDetails": null
+            },
+            "acknowldgementNumber": "PB-AC-2020-06-08-004700",
+            "propertyType": "BUILTUP.SHAREDPROPERTY",
+            "ownershipCategory": "INDIVIDUAL.SINGLEOWNER",
+            "owners": [{
+                "id": null,
+                "uuid": "8d1fea93-03cb-4288-a917-c823e7d77453",
+                "userName": "ba74a54e-e52f-4974-a0c4-4f31f4d2e246",
+                "password": null,
+                "salutation": null,
+                "name": "DharmaKrish",
+                "gender": "MALE",
+                "mobileNumber": "9742379422",
+                "emailId": null,
+                "altContactNumber": null,
+                "pan": null,
+                "aadhaarNumber": null,
+                "permanentAddress": "1/8, Veda house, JK Street, PB_AMRITSAR_REVENUE_SUN04, amritsar",
+                "permanentCity": null,
+                "permanentPinCode": null,
+                "correspondenceCity": null,
+                "correspondencePinCode": null,
+                "correspondenceAddress": null,
+                "active": true,
+                "dob": null,
+                "pwdExpiryDate": 1597810934000,
+                "locale": null,
+                "type": "CITIZEN",
+                "signature": null,
+                "accountLocked": false,
+                "roles": [{
+                    "id": null,
+                    "name": "Citizen",
+                    "code": "CITIZEN",
+                    "tenantId": "pb"
+                }],
+                "fatherOrHusbandName": "Krishna",
+                "bloodGroup": null,
+                "identificationMark": null,
+                "photo": null,
+                "createdBy": "222",
+                "createdDate": 1590034934000,
+                "lastModifiedBy": "1",
+                "lastModifiedDate": 1591586464000,
+                "tenantId": "pb",
+                "ownerInfoUuid": "8128081b-4952-4baf-ab72-93768a64c44c",
+                "isPrimaryOwner": null,
+                "ownerShipPercentage": null,
+                "ownerType": "NONE",
+                "institutionId": null,
+                "status": "ACTIVE",
+                "documents": null,
+                "relationship": "FATHER"
+            }],
+            "institution": null,
+            "creationReason": "CREATE",
+            "usageCategory": "RESIDENTIAL",
+            "noOfFloors": 2,
+            "landArea": null,
+            "superBuiltUpArea": 333.33,
+            "source": "MUNICIPAL_RECORDS",
+            "channel": "CFC_COUNTER",
+            "documents": [{
+                    "id": "e16a27d1-22d3-4de2-a79a-7d4ac0ade974",
+                    "documentType": "OWNER.ADDRESSPROOF.ELECTRICITYBILL",
+                    "fileStoreId": "ee18cdbb-84f9-4ccd-b7bc-d83e1eff2ff5",
+                    "documentUid": "ee18cdbb-84f9-4ccd-b7bc-d83e1eff2ff5",
+                    "auditDetails": null,
+                    "status": "ACTIVE"
+                },
+                {
+                    "id": "6199a45c-4d48-497c-bc5e-bc343bf2918e",
+                    "documentType": "OWNER.IDENTITYPROOF.AADHAAR",
+                    "fileStoreId": "64ebe2c7-b004-4355-adf7-1427a1be5509",
+                    "documentUid": "64ebe2c7-b004-4355-adf7-1427a1be5509",
+                    "auditDetails": null,
+                    "status": "ACTIVE"
+                },
+                {
+                    "id": "7e2288ee-b671-4073-92b4-9ed3776a5ee1",
+                    "documentType": "OWNER.REGISTRATIONPROOF.SALEDEED",
+                    "fileStoreId": "3763aaed-fe25-43de-8e91-d2a503645fa5",
+                    "documentUid": "3763aaed-fe25-43de-8e91-d2a503645fa5",
+                    "auditDetails": null,
+                    "status": "ACTIVE"
+                },
+                {
+                    "id": "ea13a9ec-e86a-4717-bbd5-d36827eeb089",
+                    "documentType": "OWNER.USAGEPROOF.ELECTRICITYBILL",
+                    "fileStoreId": "3fccf33e-2e54-4fc3-9127-544720455ff0",
+                    "documentUid": "3fccf33e-2e54-4fc3-9127-544720455ff0",
+                    "auditDetails": null,
+                    "status": "ACTIVE"
+                },
+                {
+                    "id": "a7b7d160-0277-462e-8949-55f9083276e1",
+                    "documentType": "OWNER.CONSTRUCTIONPROOF.BPACERTIFICATE",
+                    "fileStoreId": "6fe3cd06-98cb-48f6-b02b-ea1bff2af0b9",
+                    "documentUid": "6fe3cd06-98cb-48f6-b02b-ea1bff2af0b9",
+                    "auditDetails": null,
+                    "status": "ACTIVE"
+                }
+            ],
+            "units": [{
+                "id": "16447924-b36e-4f24-b102-b014be178f92",
+                "tenantId": null,
+                "floorNo": 1,
+                "unitType": null,
+                "usageCategory": "RESIDENTIAL",
+                "occupancyType": "SELFOCCUPIED",
+                "active": true,
+                "occupancyDate": 0,
+                "constructionDetail": {
+                    "carpetArea": null,
+                    "builtUpArea": 333.33,
+                    "plinthArea": null,
+                    "superBuiltUpArea": null,
+                    "constructionType": null,
+                    "constructionDate": 0,
+                    "dimensions": null
+                },
+                "additionalDetails": null,
+                "auditDetails": null,
+                "arv": null
+            }],
+            "additionalDetails": {
+                "inflammable": false,
+                "heightAbove36Feet": false
+            },
+            "auditDetails": {
+                "createdBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
+                "lastModifiedBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
+                "createdTime": 1591586464219,
+                "lastModifiedTime": 1591586464219
+            },
+            "workflow": {
+                "id": null,
+                "tenantId": "pb.amritsar",
+                "businessService": "PT.CREATE",
+                "businessId": "PB-AC-2020-06-08-004700",
+                "action": "VERIFY",
+                "moduleName": "PT",
+                "state": null,
+                "comment": null,
+                "documents": null,
+                "assignes": null
+            }
+        }
+    }
+}

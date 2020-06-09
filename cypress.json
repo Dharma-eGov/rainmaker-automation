@@ -1,0 +1,18 @@
+{
+  "baseUrl": "https://egov-micro-qa.egovernments.org/",
+  "env": {
+    "AUTH": "Basic ZWdvdi11c2VyLWNsaWVudDplZ292LXVzZXItc2VjcmV0",
+    "MOHALLA":"JLC216"
+  },
+  "projectId": "8yd35y",
+  "ignoreTestFiles": "**/[WIP]*.ts",
+  "watchForFileChanges":false,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+      "reportDir": "cypress/report/mochawesome-report",
+      "overwrite": false,
+      "html": false,
+      "json": true,
+      "timestamp": "mmddyyyy_HHMMss"
+   }
+}

@@ -1,0 +1,89 @@
+{
+    "residential": {
+        "RequestInfo": {
+            "apiId": "Rainmaker",
+            "ver": ".01",
+            "ts": "",
+            "action": "_create",
+            "did": "1",
+            "key": "",
+            "msgId": "20170310130900|en_IN",
+            "authToken": ""
+        },
+        "Property": {
+            "tenantId": "pb.amritsar",
+            "address": {
+                "city": "Amritsar",
+                "locality": {
+                    "code": "SUN04",
+                    "area": "Area1"
+                },
+                "doorNo": "1/8",
+                "buildingName": "Veda house",
+                "street": "JK Street"
+            },
+            "usageCategoryMinor": null,
+            "units": [{
+                "occupancyType": "SELFOCCUPIED",
+                "floorNo": "1",
+                "constructionDetail": {
+                    "builtUpArea": 333.33
+                },
+                "tenantId": "pb.amritsar",
+                "usageCategory": "RESIDENTIAL"
+            }],
+            "usageCategoryMajor": "RESIDENTIAL",
+            "landArea": null,
+            "propertyType": "BUILTUP.SHAREDPROPERTY",
+            "noOfFloors": 2,
+            "ownershipCategory": "INDIVIDUAL.SINGLEOWNER",
+            "owners": [{
+                "name": "DharmaKrish",
+                "mobileNumber": "9742379422",
+                "fatherOrHusbandName": "Krishna",
+                "emailId": null,
+                "permanentAddress": "1/8, Veda house, JK Street, PB_AMRITSAR_REVENUE_SUN04, amritsar",
+                "relationship": "FATHER",
+                "ownerType": "NONE",
+                "gender": "Male",
+                "isCorrespondenceAddress": true
+            }],
+            "additionalDetails": {
+                "inflammable": false,
+                "heightAbove36Feet": false
+            },
+            "source": "MUNICIPAL_RECORDS",
+            "channel": "CFC_COUNTER",
+            "documents": [{
+                    "documentType": "OWNER.ADDRESSPROOF.ELECTRICITYBILL",
+                    "fileStoreId": "ee18cdbb-84f9-4ccd-b7bc-d83e1eff2ff5",
+                    "documentUid": "ee18cdbb-84f9-4ccd-b7bc-d83e1eff2ff5"
+                },
+                {
+                    "documentType": "OWNER.IDENTITYPROOF.AADHAAR",
+                    "fileStoreId": "64ebe2c7-b004-4355-adf7-1427a1be5509",
+                    "documentUid": "64ebe2c7-b004-4355-adf7-1427a1be5509"
+                },
+                {
+                    "documentType": "OWNER.REGISTRATIONPROOF.SALEDEED",
+                    "fileStoreId": "3763aaed-fe25-43de-8e91-d2a503645fa5",
+                    "documentUid": "3763aaed-fe25-43de-8e91-d2a503645fa5"
+                },
+                {
+                    "documentType": "OWNER.USAGEPROOF.ELECTRICITYBILL",
+                    "fileStoreId": "3fccf33e-2e54-4fc3-9127-544720455ff0",
+                    "documentUid": "3fccf33e-2e54-4fc3-9127-544720455ff0"
+                },
+                {
+                    "documentType": "OWNER.CONSTRUCTIONPROOF.BPACERTIFICATE",
+                    "fileStoreId": "6fe3cd06-98cb-48f6-b02b-ea1bff2af0b9",
+                    "documentUid": "6fe3cd06-98cb-48f6-b02b-ea1bff2af0b9"
+                }
+            ],
+            "creationReason": "CREATE",
+            "superBuiltUpArea": 333.33,
+            "usageCategory": "RESIDENTIAL"
+        }
+    }
+
+}

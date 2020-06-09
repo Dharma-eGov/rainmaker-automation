@@ -1,0 +1,198 @@
+{
+  "ResponseInfo": {
+    "apiId": "Rainmaker",
+    "ver": ".01",
+    "ts": null,
+    "resMsgId": "uief87324",
+    "msgId": "20170310130900|en_IN",
+    "status": "successful"
+  },
+  "Licenses": [
+    {
+      "comment": null,
+      "id": "88865d5b-766a-4635-b74f-e86e7367811f",
+      "tenantId": "pb.nawanshahr",
+      "businessService": "TL",
+      "licenseType": "PERMANENT",
+      "applicationType": "NEW",
+      "workflowCode": "NewTL",
+      "licenseNumber": null,
+      "applicationNumber": "PB-TL-2020-05-29-006741",
+      "oldLicenseNumber": null,
+      "propertyId": null,
+      "oldPropertyId": null,
+      "accountId": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
+      "tradeName": "Dharma Traders",
+      "applicationDate": 1590741276053,
+      "commencementDate": 1590085799000,
+      "issuedDate": null,
+      "financialYear": "2020-21",
+      "validFrom": 1585679399000,
+      "validTo": 1617172199000,
+      "action": "INITIATE",
+      "assignee": null,
+      "wfDocuments": null,
+      "status": "INITIATED",
+      "tradeLicenseDetail": {
+        "id": "6ce639b8-6b62-41c5-b7fe-fc3476ab2041",
+        "surveyNo": null,
+        "subOwnerShipCategory": "INDIVIDUAL.SINGLEOWNER",
+        "structureType": "IMMOVABLE.PUCCA",
+        "operationalArea": null,
+        "noOfEmployees": null,
+        "adhocExemption": null,
+        "adhocPenalty": null,
+        "adhocExemptionReason": null,
+        "adhocPenaltyReason": null,
+        "owners": [
+          {
+            "id": 763,
+            "uuid": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
+            "userName": "9742379422",
+            "password": null,
+            "salutation": null,
+            "name": "Dharma",
+            "gender": "MALE",
+            "mobileNumber": "9742379422",
+            "emailId": null,
+            "altContactNumber": null,
+            "pan": null,
+            "aadhaarNumber": null,
+            "permanentAddress": "1/8, Veda house, JK Street, PB_AMRITSAR_REVENUE_SUN04, amritsar",
+            "permanentCity": null,
+            "permanentPinCode": null,
+            "correspondenceCity": null,
+            "correspondencePinCode": null,
+            "correspondenceAddress": null,
+            "active": true,
+            "dob": 643228199000,
+            "pwdExpiryDate": 1551176700000,
+            "locale": null,
+            "type": "CITIZEN",
+            "signature": null,
+            "accountLocked": false,
+            "roles": [
+              {
+                "id": null,
+                "name": "Citizen",
+                "code": "CITIZEN",
+                "tenantId": "pb"
+              }
+            ],
+            "fatherOrHusbandName": "Krishna",
+            "bloodGroup": null,
+            "identificationMark": null,
+            "photo": null,
+            "createdBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
+            "createdDate": 1590741276114,
+            "lastModifiedBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
+            "lastModifiedDate": 1590741276114,
+            "otpReference": null,
+            "tenantId": "pb",
+            "isPrimaryOwner": null,
+            "ownerShipPercentage": null,
+            "ownerType": null,
+            "institutionId": null,
+            "documents": null,
+            "userActive": true,
+            "relationship": "FATHER"
+          }
+        ],
+        "channel": null,
+        "address": {
+          "id": "d95567cf-8293-4b61-8b8b-bbadeddf24c5",
+          "tenantId": "pb.nawanshahr",
+          "doorNo": "1/123",
+          "latitude": null,
+          "longitude": null,
+          "addressId": null,
+          "addressNumber": null,
+          "type": null,
+          "addressLine1": null,
+          "addressLine2": null,
+          "landmark": null,
+          "city": "pb.nawanshahr",
+          "pincode": null,
+          "detail": null,
+          "buildingName": "Veda house",
+          "street": null,
+          "locality": {
+            "code": "DB_42",
+            "name": "GOLDEN PALM - W1",
+            "label": "Locality",
+            "latitude": null,
+            "longitude": null,
+            "children": [],
+            "materializedPath": null
+          }
+        },
+        "tradeUnits": [
+          {
+            "id": "4fd079d7-ecda-4241-96d4-1dd478081cb4",
+            "tenantId": "pb.nawanshahr",
+            "active": true,
+            "tradeType": "GOODS.RETAIL.TST-82",
+            "uom": null,
+            "uomValue": null,
+            "auditDetails": null
+          }
+        ],
+        "accessories": [
+          {
+            "id": "4a99ee63-db8b-49c4-ad50-5eaf80c058d6",
+            "tenantId": "pb.nawanshahr",
+            "active": true,
+            "accessoryCategory": "ACC-2",
+            "uom": "HP",
+            "uomValue": "10",
+            "count": 10,
+            "auditDetails": null
+          }
+        ],
+        "applicationDocuments": null,
+        "verificationDocuments": null,
+        "additionalDetail": null,
+        "institution": null,
+        "auditDetails": {
+          "createdBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
+          "lastModifiedBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
+          "createdTime": 1590741276053,
+          "lastModifiedTime": 1590741276053
+        }
+      },
+      "calculation": {
+        "applicationNumber": null,
+        "tradeLicense": null,
+        "tenantId": "pb.nawanshahr",
+        "taxHeadEstimates": [
+          {
+            "taxHeadCode": "TL_TAX",
+            "estimateAmount": 2500,
+            "category": "TAX"
+          }
+        ],
+        "tradeTypeBillingIds": {
+          "id": "7c3cde55-99eb-4e9c-887b-e797822d8cb2",
+          "fee": 1000,
+          "billingSlabIds": [
+            "d192213e-555f-451f-ad6f-0e59e1c222c1|0|4fd079d7-ecda-4241-96d4-1dd478081cb4"
+          ]
+        },
+        "accessoryBillingIds": {
+          "id": "92193d34-a7e2-4db2-a2ac-ed57710590da",
+          "fee": 1500,
+          "billingSlabIds": [
+            "ca758764-00bb-4b94-8221-b09de77370f3|0|4a99ee63-db8b-49c4-ad50-5eaf80c058d6"
+          ]
+        }
+      },
+      "auditDetails": {
+        "createdBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
+        "lastModifiedBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
+        "createdTime": 1590741276053,
+        "lastModifiedTime": 1590741276053
+      },
+      "fileStoreId": null
+    }
+  ]
+}

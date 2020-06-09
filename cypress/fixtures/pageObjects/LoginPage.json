@@ -1,0 +1,9 @@
+{
+    "login":{
+        "loginButton":"[data-localization='LOGIN']",
+        "mobileNumberInput":"div.mobile-number-field>input",
+        "continueButton":"#login-submit-action",
+        "otpInput":"input#otp",
+        "submitButton":"#otp-start"
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "citizen": {
+        "username": "9742379422",
+        "password": "123456",
+        "grant_type": "password",
+        "scope": "read",
+        "tenantId": "pb",
+        "userType": "CITIZEN"
+    },
+    "GRO": {
+        "username": "QAGRO01",
+        "password": "12345678",
+        "grant_type": "password",
+        "scope": "read",
+        "tenantId": "pb.jalandhar",
+        "userType": "EMPLOYEE"
+    },
+    "LME": {
+        "username": "QALME",
+        "password": "12345678",
+        "grant_type": "password",
+        "scope": "read",
+        "tenantId": "pb.jalandhar",
+        "userType": "EMPLOYEE"
+    },
+    "employee": {
+        "username": "QACSR01",
+        "password": "12345678",
+        "grant_type": "password",
+        "scope": "read",
+        "tenantId": "pb.jalandhar",
+        "userType": "EMPLOYEE"
+    },
+    "tlCemp": {
+        "username": "KFC1",
+        "password": "KFC1",
+        "grant_type": "password",
+        "scope": "read",
+        "tenantId": "pb.nawanshahr",
+        "userType": "EMPLOYEE"
+    },
+    "tlDocVerifier": {
+        "username": "KFV1",
+        "password": "KFV1",
+        "grant_type": "password",
+        "scope": "read",
+        "tenantId": "pb.nawanshahr",
+        "userType": "EMPLOYEE"
+    },
+    "tlFieldVerifier": {
+        "username": "KFI1",
+        "password": "KFI1",
+        "grant_type": "password",
+        "scope": "read",
+        "tenantId": "pb.nawanshahr",
+        "userType": "EMPLOYEE"
+    },
+    "tlApprover": {
+        "username": "KFA1",
+        "password": "KFA1",
+        "grant_type": "password",
+        "scope": "read",
+        "tenantId": "pb.nawanshahr",
+        "userType": "EMPLOYEE"
+    },
+    "ptDocVerifier": {
+        "username": "PTDV",
+        "password": "PTDV",
+        "grant_type": "password",
+        "scope": "read",
+        "tenantId": "pb.amritsar",
+        "userType": "EMPLOYEE"
+    },
+    "ptFieldVerifier": {
+        "username": "PTFI",
+        "password": "PTFI",
+        "grant_type": "password",
+        "scope": "read",
+        "tenantId": "pb.amritsar",
+        "userType": "EMPLOYEE"
+    },
+    "ptApprover": {
+        "username": "PTA",
+        "password": "PTA",
+        "grant_type": "password",
+        "scope": "read",
+        "tenantId": "pb.amritsar",
+        "userType": "EMPLOYEE"
+    }
+
+}

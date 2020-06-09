@@ -1,0 +1,52 @@
+{
+    "valid": {
+        "RequestInfo": {
+            "apiId": "Rainmaker",
+            "ver": ".01",
+            "ts": "",
+            "did": "1",
+            "key": "",
+            "msgId": "20170310130900|en_IN",
+            "authToken": ""
+        },
+        "actionInfo": [{
+            "action": "assign",
+            "assignee": "163"
+        }],
+        "services": [{
+            "tenantId": "pb.jalandhar",
+            "serviceCode": "GarbageNeedsTobeCleared",
+            "serviceRequestId": "27/05/2020/003690",
+            "description": "test",
+            "addressId": "ef7ec751-e042-42a7-bb0d-2a0f360c7b60",
+            "address": "Jalandhar,Nakodar Rd, Shaheed Udham Singh Nagar, Jalandhar, Punjab 144001, India",
+            "accountId": "762",
+            "phone": "7829727713",
+            "addressDetail": {
+                "uuid": "ef7ec751-e042-42a7-bb0d-2a0f360c7b60",
+                "houseNoAndStreetName": "test",
+                "mohalla": "JLC216",
+                "city": "pb.jalandhar",
+                "latitude": 31.322422,
+                "longitude": 75.573419,
+                "landmark": "test",
+                "tenantId": "pb.jalandhar",
+                "auditDetails": {
+                    "createdBy": "762",
+                    "lastModifiedBy": "762",
+                    "createdTime": 1590559806135,
+                    "lastModifiedTime": 1590559806135
+                }
+            },
+            "active": true,
+            "status": "open",
+            "source": "web",
+            "auditDetails": {
+                "createdBy": "762",
+                "lastModifiedBy": "762",
+                "createdTime": 1590559806135,
+                "lastModifiedTime": 1590559806135
+            }
+        }]
+    }
+}

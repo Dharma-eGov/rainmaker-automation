@@ -1,0 +1,63 @@
+{
+  "ResponseInfo": {
+    "apiId": "Rainmaker",
+    "ver": ".01",
+    "ts": null,
+    "resMsgId": "uief87324",
+    "msgId": "20170310130900|en_IN",
+    "status": "successful"
+  },
+  "services": [
+    {
+      "tenantId": "pb.jalandhar",
+      "serviceCode": "GarbageNeedsTobeCleared",
+      "serviceRequestId": "04/06/2020/003743",
+      "description": "test",
+      "addressId": "9d09553e-e6f5-4705-bff9-23117da7eb7f",
+      "address": "Jalandhar,Nakodar Rd, Shaheed Udham Singh Nagar, Jalandhar, Punjab 144001, India",
+      "accountId": "763",
+      "phone": "9999999999",
+      "addressDetail": {
+        "uuid": "9d09553e-e6f5-4705-bff9-23117da7eb7f",
+        "houseNoAndStreetName": "test",
+        "mohalla": "JLC216",
+        "city": "pb.jalandhar",
+        "latitude": 31.322422,
+        "longitude": 75.573419,
+        "landmark": "test",
+        "tenantId": "pb.jalandhar",
+        "auditDetails": {
+          "createdBy": "763",
+          "lastModifiedBy": "763",
+          "createdTime": 1591239948073,
+          "lastModifiedTime": 1591239948073
+        }
+      },
+      "active": true,
+      "status": "open",
+      "source": "web",
+      "auditDetails": {
+        "createdBy": "763",
+        "lastModifiedBy": "763",
+        "createdTime": 1591239948073,
+        "lastModifiedTime": 1591239948073
+      }
+    }
+  ],
+  "actionHistory": [
+    {
+      "actions": [
+        {
+          "uuid": "876d06ae-7f4c-4301-b5de-83acef9666e6",
+          "tenantId": "pb.jalandhar",
+          "by": "763:Citizen",
+          "when": 1591239948073,
+          "businessKey": "04/06/2020/003743",
+          "action": "open",
+          "status": "open",
+          "media": []
+        }
+      ]
+    }
+  ]
+}

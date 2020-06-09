@@ -1,0 +1,103 @@
+{
+    "validLicense": {
+        "RequestInfo": {
+            "apiId": "Rainmaker",
+            "ver": ".01",
+            "action": "",
+            "did": "1",
+            "key": "",
+            "msgId": "20170310130900|en_IN",
+            "requesterId": "",
+            "authToken": ""
+        },
+        "Licenses": [{
+            "licenseType": "PERMANENT",
+            "tradeLicenseDetail": {
+                "address": {
+                    "tenantId": "pb.nawanshahr",
+                    "city": "pb.nawanshahr",
+                    "doorNo": "1/123",
+                    "buildingName": "Veda house",
+                    "locality": {
+                        "code": "DB_42"
+                    }
+                },
+                "structureType": "IMMOVABLE.PUCCA",
+                "tradeUnits": [{
+                    "tradeType": "GOODS.RETAIL.TST-82",
+                    "uom": null,
+                    "uomValue": null
+                }],
+                "accessories": [{
+                    "uom": "HP",
+                    "accessoryCategory": "ACC-2",
+                    "uomValue": "10",
+                    "count": "10"
+                }],
+                "subOwnerShipCategory": "INDIVIDUAL.SINGLEOWNER",
+                "owners": [{
+                    "id": 763,
+                    "userName": "9742379422",
+                    "salutation": null,
+                    "name": "Dharma",
+                    "gender": "MALE",
+                    "mobileNumber": "9742379422",
+                    "emailId": null,
+                    "altContactNumber": null,
+                    "pan": null,
+                    "aadhaarNumber": null,
+                    "permanentAddress": "1/8, Veda house, JK Street, PB_AMRITSAR_REVENUE_SUN04, amritsar",
+                    "permanentCity": null,
+                    "permanentPinCode": null,
+                    "correspondenceAddress": null,
+                    "correspondenceCity": null,
+                    "correspondencePinCode": null,
+                    "addresses": [{
+                        "pinCode": null,
+                        "city": null,
+                        "address": "1/8, Veda house, JK Street, PB_AMRITSAR_REVENUE_SUN04, amritsar",
+                        "type": "PERMANENT",
+                        "id": 2766,
+                        "tenantId": "pb",
+                        "userId": 763,
+                        "addressType": "PERMANENT",
+                        "lastModifiedDate": null,
+                        "lastModifiedBy": null
+                    }],
+                    "active": true,
+                    "locale": null,
+                    "type": "CITIZEN",
+                    "accountLocked": false,
+                    "accountLockedDate": 0,
+                    "fatherOrHusbandName": "Krishna",
+                    "signature": null,
+                    "bloodGroup": null,
+                    "photo": null,
+                    "identificationMark": null,
+                    "createdBy": 0,
+                    "lastModifiedBy": 1,
+                    "tenantId": "pb",
+                    "roles": [{
+                        "code": "CITIZEN",
+                        "name": "Citizen",
+                        "tenantId": "pb"
+                    }],
+                    "uuid": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
+                    "createdDate": 1543262100000,
+                    "lastModifiedDate": 1589895120000,
+                    "dob": 643228199000,
+                    "pwdExpiryDate": 1551176700000,
+                    "relationship": "FATHER"
+                }],
+                "applicationDocuments": null
+            },
+            "financialYear": "2020-21",
+            "tradeName": "Dharma Traders",
+            "commencementDate": 1590085799000,
+            "tenantId": "pb.nawanshahr",
+            "workflowCode": "NewTL",
+            "applicationType": "NEW",
+            "action": "INITIATE"
+        }]
+    }
+}

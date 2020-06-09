@@ -1,0 +1,33 @@
+{
+    "valid": {
+        "RequestInfo": {
+            "apiId": "Rainmaker",
+            "ver": ".01",
+            "ts": "",
+            "action": "_create",
+            "did": "1",
+            "key": "",
+            "msgId": "20170310130900|en_IN",
+            "authToken": ""
+        },
+        "actionInfo": [{
+            "media": []
+        }],
+        "services": [{
+            "serviceCode": "GarbageNeedsTobeCleared",
+            "description": "test",
+            "addressDetail": {
+                "latitude": "31.322422",
+                "longitude": "75.573419",
+                "city": "pb.jalandhar",
+                "mohalla": "JLC216",
+                "houseNoAndStreetName": "test",
+                "landmark": "test"
+            },
+            "address": "Jalandhar,Nakodar Rd, Shaheed Udham Singh Nagar, Jalandhar, Punjab 144001, India",
+            "tenantId": "pb.jalandhar",
+            "source": "web",
+            "phone": "9999999999"
+        }]
+    }
+}
