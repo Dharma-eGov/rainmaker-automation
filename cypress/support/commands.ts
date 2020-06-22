@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-import { ISignIn,ICreateComplaint, IAddProperty, ICreateTradeLicense,IUpdateTradeLicense, IAuthRequired, IUpdateComplaint, ICreatePayment, IUpdateProperty } from './models';
+import { ISignIn,ICreateComplaint, IAddProperty, ICreateTradeLicense,IUpdateTradeLicense, IAuthRequired, IUpdateComplaint, ICreatePayment, IUpdateProperty, ICreateAssessment } from './models';
 import axios from 'axios';
 
 function postApi(url: string, data: Cypress.RequestBody){
@@ -88,3 +88,15 @@ const updateProperty = (data:IUpdateProperty) => {
 }
 
 Cypress.Commands.add('updateProperty', updateProperty);
+
+const createAssessment = (data:ICreateAssessment) => {
+    return postApi( 'property-services/assessment/_create', data);
+}
+
+Cypress.Commands.add('createAssessment', createAssessment);
+
+const propertyEstimate = (data:ICreateAssessment) => {
+    return postApi( 'property-services/assessment/_create', data);
+}
+
+Cypress.Commands.add('propertyEstimate', propertyEstimate);

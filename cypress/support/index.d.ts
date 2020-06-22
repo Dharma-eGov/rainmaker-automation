@@ -25,6 +25,8 @@ declare namespace Cypress {
         updateComplaint(data: Partial<IUpdateComplaint>): Chainable<Response>
         createPayment(data: Partial<ICreatePayment>): Chainable<Response>
         updateProperty(data: Partial<IUpdateProperty>): Chainable<Response>
+        createAssessment(data: Partial<ICreateAssessment>): Chainable<Response>
+        propertyEstimate(data: Partial<ICreateAssessment>): Chainable<Response>
 
 
 

@@ -10,20 +10,20 @@
   "Licenses": [
     {
       "comment": null,
-      "id": "60d1b779-1585-419f-af8d-ce58a23bc0b5",
+      "id": "c21eb321-94af-4b2b-9260-da1b987ec896",
       "tenantId": "pb.nawanshahr",
       "businessService": "TL",
       "licenseType": "PERMANENT",
       "applicationType": "NEW",
       "workflowCode": "NewTL",
       "licenseNumber": null,
-      "applicationNumber": "PB-TL-2020-06-09-006918",
+      "applicationNumber": "PB-TL-2020-06-09-006919",
       "oldLicenseNumber": null,
       "propertyId": null,
       "oldPropertyId": null,
       "accountId": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
       "tradeName": "Dharma Traders",
-      "applicationDate": 1591683079473,
+      "applicationDate": 1591683223056,
       "commencementDate": 1590085799000,
       "issuedDate": null,
       "financialYear": "2020-21",
@@ -62,7 +62,7 @@
       ],
       "status": "APPLIED",
       "tradeLicenseDetail": {
-        "id": "d5cb8cfc-b5e5-497d-b120-63e0c99ebd86",
+        "id": "3ceebeaa-7651-4c0f-9d42-3d269257f5b6",
         "surveyNo": null,
         "subOwnerShipCategory": "INDIVIDUAL.SINGLEOWNER",
         "structureType": "IMMOVABLE.PUCCA",
@@ -112,9 +112,9 @@
             "identificationMark": null,
             "photo": null,
             "createdBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
-            "createdDate": 1591683223908,
+            "createdDate": 1592362454142,
             "lastModifiedBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
-            "lastModifiedDate": 1591683223908,
+            "lastModifiedDate": 1592362454142,
             "otpReference": null,
             "tenantId": "pb",
             "isPrimaryOwner": null,
@@ -128,7 +128,7 @@
         ],
         "channel": null,
         "address": {
-          "id": "83b81ac5-d535-4fa5-81ff-d8e80a23ef94",
+          "id": "97579c31-4ef3-437e-a887-24192cf31577",
           "tenantId": "pb.nawanshahr",
           "doorNo": "1/123",
           "latitude": null,
@@ -156,7 +156,7 @@
         },
         "tradeUnits": [
           {
-            "id": "709aaabc-9146-4119-8307-325a9a34f34a",
+            "id": "49a8704c-a7a0-42b9-b574-32156087daaa",
             "tenantId": "pb.nawanshahr",
             "active": true,
             "tradeType": "GOODS.RETAIL.TST-82",
@@ -167,7 +167,7 @@
         ],
         "accessories": [
           {
-            "id": "bbcc74d9-7a2f-482c-9ac2-869ea509f160",
+            "id": "ed0e93c4-c29b-41e2-bc68-c3b1338b4033",
             "tenantId": "pb.nawanshahr",
             "active": true,
             "accessoryCategory": "ACC-2",
@@ -179,7 +179,7 @@
         ],
         "applicationDocuments": [
           {
-            "id": "e89d4043-0080-448b-a36c-c43702564318",
+            "id": "1fd39228-97ba-4d55-bea8-e397d179f88d",
             "active": true,
             "tenantId": "pb.nawanshahr",
             "documentType": "OWNERIDPROOF",
@@ -188,7 +188,7 @@
             "auditDetails": null
           },
           {
-            "id": "54d10b21-dcee-4f6a-9f36-85d8b32191a4",
+            "id": "c4f774e0-51b3-42c9-bf69-afc06fae7d47",
             "active": true,
             "tenantId": "pb.nawanshahr",
             "documentType": "OWNERSHIPPROOF",
@@ -197,7 +197,7 @@
             "auditDetails": null
           },
           {
-            "id": "4bb49f1a-afee-46a5-8a04-341ccc70a9f6",
+            "id": "87d2aaec-13fc-4823-83d0-2d45c9d69f9e",
             "active": true,
             "tenantId": "pb.nawanshahr",
             "documentType": "OWNERPHOTO",
@@ -212,8 +212,8 @@
         "auditDetails": {
           "createdBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
           "lastModifiedBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
-          "createdTime": 1591683079473,
-          "lastModifiedTime": 1591683223712
+          "createdTime": 1591683223056,
+          "lastModifiedTime": 1592362454033
         }
       },
       "calculation": {
@@ -228,25 +228,25 @@
           }
         ],
         "tradeTypeBillingIds": {
-          "id": "9776d330-d9ae-4a0b-bbc2-df767db95e59",
+          "id": "36d5950b-fd1d-47e3-9f3c-3ee2ad45c8a1",
           "fee": 1000,
           "billingSlabIds": [
-            "d192213e-555f-451f-ad6f-0e59e1c222c1|0|709aaabc-9146-4119-8307-325a9a34f34a"
+            "d192213e-555f-451f-ad6f-0e59e1c222c1|0|49a8704c-a7a0-42b9-b574-32156087daaa"
           ]
         },
         "accessoryBillingIds": {
-          "id": "339f383e-aa94-4921-84e8-69ae565d2bb4",
+          "id": "9317faa6-d95f-42d0-8c3f-26331ad196c5",
           "fee": 1500,
           "billingSlabIds": [
-            "ca758764-00bb-4b94-8221-b09de77370f3|0|bbcc74d9-7a2f-482c-9ac2-869ea509f160"
+            "ca758764-00bb-4b94-8221-b09de77370f3|0|ed0e93c4-c29b-41e2-bc68-c3b1338b4033"
           ]
         }
       },
       "auditDetails": {
         "createdBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
         "lastModifiedBy": "860cf9ec-239b-41bd-946f-d5aaab3e0d41",
-        "createdTime": 1591683079473,
-        "lastModifiedTime": 1591683223712
+        "createdTime": 1591683223056,
+        "lastModifiedTime": 1592362454033
       },
       "fileStoreId": null
     }

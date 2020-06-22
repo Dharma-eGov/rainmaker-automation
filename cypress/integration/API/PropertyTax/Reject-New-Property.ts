@@ -49,7 +49,6 @@ context('Create Property and Approve from Approver', () => {
 
         propertyForward(loginData.ptApprover, 'REJECT','INACTIVE')
 
-
     })
 
 })

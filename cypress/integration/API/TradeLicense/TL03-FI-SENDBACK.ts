@@ -2,7 +2,7 @@
 // @ts-check
 
 import * as loginData from '@fixtures/testData/loginBody.json';
-import { createTradeLicense,verifyForward,searchTLApplication,makePaymentByEmployee } from '@src/utils/apiutils';
+import { createTradeLicense,verifyForward,searchTLApplication,makeTLPaymentByEmployee } from '@src/utils/apiutils';
 
 
 context('Create Trade License and Send Back from Filed inspector', () => {
@@ -35,7 +35,7 @@ context('Create Trade License and Send Back from Filed inspector', () => {
     })
 
     it('TL-FetchBill and Payment', () => {
-        makePaymentByEmployee(loginData.tlCemp, 'pb.nawanshahr', 'TL')
+        makeTLPaymentByEmployee(loginData.tlCemp, 'pb.nawanshahr', 'TL')
     });
 
 

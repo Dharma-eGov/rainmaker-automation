@@ -563,3 +563,18 @@ export interface IUpdateProperty {
     RequestInfo: RequestInfo;
     Property: Property2;
 }
+
+export interface Assessment {
+    tenantId: string;
+    propertyId: string;
+    financialYear: string;
+    assessmentDate: number;
+    source: string;
+    channel: string;
+    additionalDetails: AdditionalDetails;
+}
+export interface ICreateAssessment extends IAuthRequired{
+    RequestInfo: RequestInfo;
+    Assessment: Assessment;
+}
+

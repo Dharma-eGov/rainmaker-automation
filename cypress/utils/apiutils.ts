@@ -8,6 +8,7 @@ import * as createPayment from '@fixtures/testData/createPayment.json'
 import * as propertyData from '@fixtures/testData/addProperty.json'
 import * as updatePropertyData from '@fixtures/testData/updateProperty.json'
 import * as newPropertyData from '@fixtures/testData/createPropertyRes.json'
+import * as editPropertyData from '@fixtures/testData/editProperty.json'
 
 export function createTradeLicense(usertype) {
     let access_token = ''
@@ -121,7 +122,31 @@ export function propertyForward(usertype,action,status) {
         })
 }
 
-export function makePaymentByEmployee(usertype, tenant, bussinessService) {
+export function editProperty(usertype,sqftValue,status) {
+
+    let user = usertype
+    let ptaccess_token, ackNumber = ''
+    cy.signin(user)
+        .then((response) => {
+            expect(response.status).equal(200)
+            ptaccess_token = response.body.access_token
+            // expect(response.body.UserRequest.roles[0].code).equal('PT_DOC_VERIFIER');
+            let uProperty = editPropertyData.valid
+            uProperty.RequestInfo.authToken=ptaccess_token
+            uProperty.Property.superBuiltUpArea=sqftValue
+            cy.updateProperty(uProperty)
+                .then((response) => {
+                    expect(response.status).equal(200)
+                    console.log(response.body.Properties[0].propertyId)
+                    expect(response.body.Properties[0].status).equal(status)
+
+                })
+
+
+        })
+}
+
+export function makeTLPaymentByEmployee(usertype, tenant, bussinessService) {
     let tlcemp = usertype
     let totalAmount: number, billId, applicationNo, access_token = ''
     cy.signin(tlcemp)
@@ -152,4 +177,56 @@ export function makePaymentByEmployee(usertype, tenant, bussinessService) {
                 // console.log("total amount: "+response.body.Bill[0].totalAmount)
             });
     })
+}
+
+export function createAssessment(usertype,assesmentYr) {
+    let user = usertype
+    let access_token = ''
+    const now = Date.now();
+    cy.signin(user)
+        .then((response) => {
+            expect(response.status).equal(200)
+            access_token = response.body.access_token
+            cy.readFile('cypress/fixtures/testData/createPropertyRes.json').then((response) => {
+                let property = propertyData.assessment
+                property.Assessment.propertyId = response.Properties[0].propertyId
+                property.Assessment.assessmentDate = now
+                property.Assessment.financialYear = assesmentYr
+                property.RequestInfo.authToken = access_token
+                cy.createAssessment(property).then((response) => {
+                    expect(response.status).equal(201)
+                    expect(response.body.Assessments[0].propertyId).equal(property.Assessment.propertyId)
+                    console.log('Assessment Number : ' + response.body.Assessments[0].assessmentNumber)
+
+                })
+            })
+        });
+
+
+}
+
+export function propertyEstimate(usertype,assesmentYr) {
+    let user = usertype
+    let access_token = ''
+    const now = Date.now();
+    cy.signin(user)
+        .then((response) => {
+            expect(response.status).equal(200)
+            access_token = response.body.access_token
+            cy.readFile('cypress/fixtures/testData/createPropertyRes.json').then((response) => {
+                let property = propertyData.assessment
+                property.Assessment.propertyId = response.Properties[0].propertyId
+                property.Assessment.assessmentDate = now
+                property.Assessment.financialYear = assesmentYr
+                property.RequestInfo.authToken = access_token
+                cy.propertyEstimate(property).then((response) => {
+                    expect(response.status).equal(201)
+                    // expect(response.body.Calculation[0].serviceNumber).equal(property.Assessment.propertyId)
+                    // console.log('serviceNumber: ' + response.body.Calculation[0].serviceNumber)
+
+                })
+            })
+        });
+
+
 }

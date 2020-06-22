@@ -84,6 +84,26 @@
             "superBuiltUpArea": 333.33,
             "usageCategory": "RESIDENTIAL"
         }
+    },
+    "assessment": {
+    "RequestInfo": {
+        "apiId": "Rainmaker",
+        "ver": ".01",
+        "ts": "",
+        "action": "_create",
+        "did": "1",
+        "key": "",
+        "msgId": "20170310130900|en_IN",
+        "authToken": ""
+    },
+    "Assessment": {
+        "tenantId": "pb.amritsar",
+        "propertyId": "PB-PT-2020-06-11-005308",
+        "financialYear": "2019-20",
+        "assessmentDate": 1591851888637,
+        "source": "MUNICIPAL_RECORDS",
+        "channel": "CFC_COUNTER",
+        "additionalDetails": {}
     }
-
+    }
 }

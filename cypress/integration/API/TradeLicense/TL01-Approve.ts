@@ -2,7 +2,7 @@
 // @ts-check
 
 import * as loginData from '@fixtures/testData/loginBody.json';
-import { createTradeLicense,verifyForward, searchTLApplication, makePaymentByEmployee } from '../../../utils/apiutils.ts';
+import { createTradeLicense,verifyForward, searchTLApplication, makeTLPaymentByEmployee } from '../../../utils/apiutils.ts';
 
 context('Create Trade License and Approve it', () => {
     it('Create Trade License by citizen', () => {
@@ -28,7 +28,7 @@ context('Create Trade License and Approve it', () => {
     })
 
     it('TL-FetchBill and Payment', () => {
-        makePaymentByEmployee(loginData.tlCemp, 'pb.nawanshahr', 'TL')
+        makeTLPaymentByEmployee(loginData.tlCemp, 'pb.nawanshahr', 'TL')
         searchTLApplication(loginData.tlCemp, 'APPROVED')
     });
 })
