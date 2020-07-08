@@ -51,7 +51,7 @@ context('Create Property and Approve from Approver', () => {
 
 
     })
-    it('Assess the property', () => {
+    it('Assess the property and do payment ', () => {
         createAssessment(loginData.ptCemp, '2019-20')
         propertyEstimate(loginData.ptCemp, '2019-20')
         let totalAmount, billId=''
@@ -83,7 +83,7 @@ context('Create Property and Approve from Approver', () => {
                     cy.createPayment(payment)
                         .then((response) => {
                             expect(response.status).equal(200)
-                            console.log("total amount: "+response.body.Bill[0].totalAmount)
+                            console.log("total amount: "+response.body.Payments00[0].totalAmount)
                         });
                 })
         })
