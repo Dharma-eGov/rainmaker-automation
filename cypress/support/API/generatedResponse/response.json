@@ -1,0 +1,221 @@
+{
+  "ResponseInfo": {
+    "apiId": "Rainmaker",
+    "ver": ".01",
+    "ts": null,
+    "resMsgId": "uief87324",
+    "msgId": "20170310130900|en_IN",
+    "status": "successful"
+  },
+  "Properties": [
+    {
+      "id": "6b791c27-78ad-4fe3-8bb0-085a49a3abda",
+      "propertyId": "PB-PT-2020-07-17-005920",
+      "surveyId": null,
+      "linkedProperties": null,
+      "tenantId": "pb.amritsar",
+      "accountId": "f90534e4-e8f1-4564-8c65-f521999c0861",
+      "oldPropertyId": null,
+      "status": "INWORKFLOW",
+      "address": {
+        "tenantId": "pb.amritsar",
+        "doorNo": "13/3",
+        "plotNo": null,
+        "id": "8e804b62-063b-48ef-9b82-288e18ea8c08",
+        "landmark": null,
+        "city": "Amritsar",
+        "district": null,
+        "region": null,
+        "state": null,
+        "country": null,
+        "pincode": null,
+        "buildingName": null,
+        "street": null,
+        "locality": {
+          "code": "SUN04",
+          "name": "Ajit Nagar - Area1",
+          "label": "Locality",
+          "latitude": null,
+          "longitude": null,
+          "area": "Area1",
+          "children": [],
+          "materializedPath": null
+        },
+        "geoLocation": {
+          "latitude": null,
+          "longitude": null
+        },
+        "additionalDetails": null
+      },
+      "acknowldgementNumber": "PB-AC-2020-07-17-005457",
+      "propertyType": "BUILTUP.SHAREDPROPERTY",
+      "ownershipCategory": "INDIVIDUAL.SINGLEOWNER",
+      "owners": [
+        {
+          "id": 3452,
+          "uuid": "fb488a48-e0a9-4cf2-9296-de9c1e100ee5",
+          "userName": "8897542103",
+          "password": null,
+          "salutation": null,
+          "name": "Minu",
+          "gender": "Female",
+          "mobileNumber": "8897542103",
+          "emailId": null,
+          "altContactNumber": null,
+          "pan": null,
+          "aadhaarNumber": null,
+          "permanentAddress": "13/3, Ajit Nagar - Area1, amritsar",
+          "permanentCity": null,
+          "permanentPinCode": null,
+          "correspondenceCity": null,
+          "correspondencePinCode": null,
+          "correspondenceAddress": null,
+          "active": true,
+          "dob": null,
+          "pwdExpiryDate": null,
+          "locale": null,
+          "type": "CITIZEN",
+          "signature": null,
+          "accountLocked": null,
+          "roles": [
+            {
+              "id": null,
+              "name": "Citizen",
+              "code": "CITIZEN",
+              "tenantId": null
+            }
+          ],
+          "fatherOrHusbandName": "Ramesh",
+          "bloodGroup": null,
+          "identificationMark": null,
+          "photo": null,
+          "createdBy": "f90534e4-e8f1-4564-8c65-f521999c0861",
+          "createdDate": 1594977818686,
+          "lastModifiedBy": "f90534e4-e8f1-4564-8c65-f521999c0861",
+          "lastModifiedDate": 1594977818686,
+          "tenantId": "pb.amritsar",
+          "ownerInfoUuid": "4e8c77ab-38c4-4bcc-957b-8ebdb5ba6fd3",
+          "isPrimaryOwner": null,
+          "ownerShipPercentage": null,
+          "ownerType": "NONE",
+          "institutionId": null,
+          "status": "ACTIVE",
+          "documents": null,
+          "relationship": "FATHER"
+        }
+      ],
+      "institution": null,
+      "creationReason": "CREATE",
+      "usageCategory": "NONRESIDENTIAL.COMMERCIAL",
+      "noOfFloors": 2,
+      "landArea": null,
+      "superBuiltUpArea": 133.34,
+      "source": "MUNICIPAL_RECORDS",
+      "channel": "CFC_COUNTER",
+      "documents": [
+        {
+          "id": "d704eca9-a408-4bbc-8c4d-86d4e1211520",
+          "documentType": "OWNER.ADDRESSPROOF.ELECTRICITYBILL",
+          "fileStoreId": "ccd3be88-86a8-47dc-a9da-301c51de1255",
+          "documentUid": "ccd3be88-86a8-47dc-a9da-301c51de1255",
+          "auditDetails": null,
+          "status": "ACTIVE"
+        },
+        {
+          "id": "5489b321-1d21-40f1-8bfe-077d14c0d26a",
+          "documentType": "OWNER.IDENTITYPROOF.VOTERID",
+          "fileStoreId": "4a8c515b-2a23-4c14-a48d-868fc051e36d",
+          "documentUid": "4a8c515b-2a23-4c14-a48d-868fc051e36d",
+          "auditDetails": null,
+          "status": "ACTIVE"
+        },
+        {
+          "id": "6c9f70f9-31f2-4a15-a117-cf1de85a4f42",
+          "documentType": "OWNER.REGISTRATIONPROOF.GIFTDEED",
+          "fileStoreId": "9733a259-abd5-4f12-b739-20660430871d",
+          "documentUid": "9733a259-abd5-4f12-b739-20660430871d",
+          "auditDetails": null,
+          "status": "ACTIVE"
+        },
+        {
+          "id": "43b4c084-c8a4-4d1c-8fda-e9b927d05750",
+          "documentType": "OWNER.USAGEPROOF.TRADELICENCE",
+          "fileStoreId": "7c54b960-8b3c-4ae1-b5a3-c238b1f65539",
+          "documentUid": "7c54b960-8b3c-4ae1-b5a3-c238b1f65539",
+          "auditDetails": null,
+          "status": "ACTIVE"
+        },
+        {
+          "id": "92303b57-a704-4213-ad47-8f8fbdb253a7",
+          "documentType": "OWNER.CONSTRUCTIONPROOF.BPACERTIFICATE",
+          "fileStoreId": "8a0ec22f-d38b-4058-a85b-c3f94db83509",
+          "documentUid": "8a0ec22f-d38b-4058-a85b-c3f94db83509",
+          "auditDetails": null,
+          "status": "ACTIVE"
+        },
+        {
+          "id": "bac634d2-c06b-41c5-aefc-9e7f80d1b069",
+          "documentType": "OWNER.OCCUPANCYPROOF.RENTAGREEMENT",
+          "fileStoreId": "cd909ce6-cb6a-4d10-862b-a6893107a616",
+          "documentUid": "cd909ce6-cb6a-4d10-862b-a6893107a616",
+          "auditDetails": null,
+          "status": "ACTIVE"
+        }
+      ],
+      "units": [
+        {
+          "id": "fdf76aec-4c44-4052-b68b-58308815dead",
+          "tenantId": "pb.amritsar",
+          "floorNo": 1,
+          "unitType": "ACRESTAURANT",
+          "usageCategory": "NONRESIDENTIAL.COMMERCIAL.FOODJOINTS.ACRESTAURANT",
+          "occupancyType": "RENTED",
+          "active": true,
+          "occupancyDate": null,
+          "constructionDetail": {
+            "carpetArea": null,
+            "builtUpArea": 66.67,
+            "plinthArea": null,
+            "superBuiltUpArea": null,
+            "constructionType": null,
+            "constructionDate": null,
+            "dimensions": null
+          },
+          "additionalDetails": null,
+          "auditDetails": null,
+          "arv": 200000
+        },
+        {
+          "id": "147a37bd-585f-4830-bc3b-34a49349a364",
+          "tenantId": "pb.amritsar",
+          "floorNo": 1,
+          "unitType": "ACRESTAURANT",
+          "usageCategory": "NONRESIDENTIAL.COMMERCIAL.FOODJOINTS.ACRESTAURANT",
+          "occupancyType": "RENTED",
+          "active": true,
+          "occupancyDate": null,
+          "constructionDetail": {
+            "carpetArea": null,
+            "builtUpArea": 66.68,
+            "plinthArea": null,
+            "superBuiltUpArea": null,
+            "constructionType": null,
+            "constructionDate": null,
+            "dimensions": null
+          },
+          "additionalDetails": null,
+          "auditDetails": null,
+          "arv": 200000
+        }
+      ],
+      "additionalDetails": null,
+      "auditDetails": {
+        "createdBy": "f90534e4-e8f1-4564-8c65-f521999c0861",
+        "lastModifiedBy": "f90534e4-e8f1-4564-8c65-f521999c0861",
+        "createdTime": 1594977818601,
+        "lastModifiedTime": 1594977818601
+      },
+      "workflow": null
+    }
+  ]
+}
