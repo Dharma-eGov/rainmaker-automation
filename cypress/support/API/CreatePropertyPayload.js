@@ -1,10 +1,6 @@
 var fs = require('fs');
 var path = require('path');
 const filePath = path.parse(__dirname).dir+"\\API\\generatedResponse\\response.json";
-const data = require('./TestData/AmritsarQA.json').AmritsarQa;
-const dataFilePath = require('./TestData/AmritsarQA.json');
-
-
 
 const {
     Locality,
@@ -23,7 +19,7 @@ const {
 
 
 
-async function payloadWithCitizen(token){
+async function payloadWithCitizen(token,data){
     try{
 
 let loc = new Locality(data.code,data.area);
@@ -94,7 +90,7 @@ return JSON.stringify(payload,null,2);
     }
 }
 
-let payloadAsApprover= async (token,approver)=>{
+let payloadAsApprover= async (token,approver,dataFilePath)=>{
     try{
         
       
@@ -359,7 +355,7 @@ let payloadAsApprover= async (token,approver)=>{
     }
 }
 
-let payloadForAssessment = async (token,propertyID) =>{
+let payloadForAssessment = async (token,propertyID,dataFilePath,data) =>{
     let additionalDetails = new AdditionalDetails();
     let assessment = new Assessment(dataFilePath.Assessment.tenantId,propertyID,dataFilePath.Assessment.financialYear,
         dataFilePath.Assessment.assessmentDate,dataFilePath.Assessment.source,dataFilePath.Assessment.channel,additionalDetails)
@@ -369,13 +365,13 @@ let payloadForAssessment = async (token,propertyID) =>{
         return JSON.stringify(requestAssessmentBody,null,2);
 }
 
-let payloadAssessmentHistory = async (token) =>{
+let payloadAssessmentHistory = async (token,data) =>{
     let request = new RequestInfo(data.apiId, data.ver, data.ts, data.action, data.did, data.key, data.msgId, token);
     let payload = new AssessmentHistory(request);
     return JSON.stringify(payload,null,2);
 }
 
-let payloadBillDetails = async(token)=>{
+let payloadBillDetails = async(token,data)=>{
     let billDetails = new RequestInfoBillDetails(data.apiId, data.ver,"",data.did,data.key,data.msgId,"",token);
     let payloadBillDetails = new BillDetails(billDetails);
 

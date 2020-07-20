@@ -2,15 +2,16 @@ var axios = require('axios');
 var qs = require('qs');
 const fs = require('fs');
 
+
 const {filePath,payloadWithCitizen,payloadAsApprover,payloadForAssessment,payloadAssessmentHistory,
   payloadBillDetails} = require('../CreatePropertyPayload');
 
 
 
-let CreateNewPropertyAsCitizen = async (token)=>{
+let CreateNewPropertyAsCitizen = async (token,data)=>{
     try{    
            
-            var data = await payloadWithCitizen(token);
+            var data = await payloadWithCitizen(token,data);
             var config = {
                 method: 'post',
                 url: 'https://egov-micro-qa.egovernments.org/property-services/property/_create',
@@ -30,10 +31,10 @@ let CreateNewPropertyAsCitizen = async (token)=>{
     }
 }
 
-let reviewedPropertyByApprover=async (token,approver)=>{
+let reviewedPropertyByApprover=async (token,approver,dataFilePath)=>{
   try{    
            
-    var data = await payloadAsApprover(token,approver);
+    var data = await payloadAsApprover(token,approver,dataFilePath);
     var config = {
         method: 'post',
         url: 'https://egov-micro-qa.egovernments.org/property-services/property/_update?',
@@ -52,9 +53,9 @@ console.error(e);
 
 
 
-let createAssessment = async (token,propertyId)=>{
+let createAssessment = async (token,propertyId,dataFilePath,data)=>{
   try{
-    var data = await payloadForAssessment(token,propertyId);
+    var data = await payloadForAssessment(token,propertyId,dataFilePath,data);
     var config = {
       method: 'post',
       url: 'https://egov-micro-qa.egovernments.org/property-services/assessment/_create',
@@ -72,13 +73,13 @@ let createAssessment = async (token,propertyId)=>{
   }
 }
 
-let assessmentHistory = async (token,propertyId,tenantId)=>{
+let assessmentHistory = async (token,propertyId,tenantId,data)=>{
   try{
     var param = qs.stringify({
       propertyIds: propertyId,
       tenantId : tenantId
     });
-    var data = await payloadAssessmentHistory(token);
+    var data = await payloadAssessmentHistory(token,data);
     var config = {
       method: 'post',
       url: `https://egov-micro-qa.egovernments.org/property-services/assessment/_search?${param}`,
@@ -98,14 +99,14 @@ let assessmentHistory = async (token,propertyId,tenantId)=>{
   }
 }
 
-let billDetails = async (token,tenantId,consumerCode,businessService)=>{
+let billDetails = async (token,tenantId,consumerCode,businessService,data)=>{
   try{
     var param = qs.stringify({
       tenantId : tenantId,
       consumerCode : consumerCode,
       businessService : businessService
     });
-    var data = await payloadBillDetails(token);
+    var data = await payloadBillDetails(token,data);
     var config = {
       method: 'post',
       url: `https://egov-micro-qa.egovernments.org/billing-service/bill/v2/_fetchbill?${param}`,

@@ -9,8 +9,8 @@
   },
   "Properties": [
     {
-      "id": "6b791c27-78ad-4fe3-8bb0-085a49a3abda",
-      "propertyId": "PB-PT-2020-07-17-005920",
+      "id": "bcc56860-9773-4b54-ab5b-8772e49bcffd",
+      "propertyId": "PB-PT-2020-07-20-005946",
       "surveyId": null,
       "linkedProperties": null,
       "tenantId": "pb.amritsar",
@@ -21,7 +21,7 @@
         "tenantId": "pb.amritsar",
         "doorNo": "13/3",
         "plotNo": null,
-        "id": "8e804b62-063b-48ef-9b82-288e18ea8c08",
+        "id": "3b8c82db-5300-4d51-b9f8-2b934a7178e7",
         "landmark": null,
         "city": "Amritsar",
         "district": null,
@@ -47,7 +47,7 @@
         },
         "additionalDetails": null
       },
-      "acknowldgementNumber": "PB-AC-2020-07-17-005457",
+      "acknowldgementNumber": "PB-AC-2020-07-20-005483",
       "propertyType": "BUILTUP.SHAREDPROPERTY",
       "ownershipCategory": "INDIVIDUAL.SINGLEOWNER",
       "owners": [
@@ -90,11 +90,11 @@
           "identificationMark": null,
           "photo": null,
           "createdBy": "f90534e4-e8f1-4564-8c65-f521999c0861",
-          "createdDate": 1594977818686,
+          "createdDate": 1595245351631,
           "lastModifiedBy": "f90534e4-e8f1-4564-8c65-f521999c0861",
-          "lastModifiedDate": 1594977818686,
+          "lastModifiedDate": 1595245351631,
           "tenantId": "pb.amritsar",
-          "ownerInfoUuid": "4e8c77ab-38c4-4bcc-957b-8ebdb5ba6fd3",
+          "ownerInfoUuid": "49bb7503-c433-40d8-bcb6-b3b8ec0a9071",
           "isPrimaryOwner": null,
           "ownerShipPercentage": null,
           "ownerType": "NONE",
@@ -114,7 +114,7 @@
       "channel": "CFC_COUNTER",
       "documents": [
         {
-          "id": "d704eca9-a408-4bbc-8c4d-86d4e1211520",
+          "id": "38e5c651-b381-4c3b-9a78-90da4fc71de0",
           "documentType": "OWNER.ADDRESSPROOF.ELECTRICITYBILL",
           "fileStoreId": "ccd3be88-86a8-47dc-a9da-301c51de1255",
           "documentUid": "ccd3be88-86a8-47dc-a9da-301c51de1255",
@@ -122,7 +122,7 @@
           "status": "ACTIVE"
         },
         {
-          "id": "5489b321-1d21-40f1-8bfe-077d14c0d26a",
+          "id": "d85a4773-7e8b-477a-8f72-1dea65b7c82f",
           "documentType": "OWNER.IDENTITYPROOF.VOTERID",
           "fileStoreId": "4a8c515b-2a23-4c14-a48d-868fc051e36d",
           "documentUid": "4a8c515b-2a23-4c14-a48d-868fc051e36d",
@@ -130,7 +130,7 @@
           "status": "ACTIVE"
         },
         {
-          "id": "6c9f70f9-31f2-4a15-a117-cf1de85a4f42",
+          "id": "007af01d-69b2-4bbe-bd46-e50a17d5da40",
           "documentType": "OWNER.REGISTRATIONPROOF.GIFTDEED",
           "fileStoreId": "9733a259-abd5-4f12-b739-20660430871d",
           "documentUid": "9733a259-abd5-4f12-b739-20660430871d",
@@ -138,7 +138,7 @@
           "status": "ACTIVE"
         },
         {
-          "id": "43b4c084-c8a4-4d1c-8fda-e9b927d05750",
+          "id": "08fb9a47-e9af-46e5-ad82-8c06a76bc751",
           "documentType": "OWNER.USAGEPROOF.TRADELICENCE",
           "fileStoreId": "7c54b960-8b3c-4ae1-b5a3-c238b1f65539",
           "documentUid": "7c54b960-8b3c-4ae1-b5a3-c238b1f65539",
@@ -146,7 +146,7 @@
           "status": "ACTIVE"
         },
         {
-          "id": "92303b57-a704-4213-ad47-8f8fbdb253a7",
+          "id": "139ef920-c5fc-45b1-977a-a01c3fc72094",
           "documentType": "OWNER.CONSTRUCTIONPROOF.BPACERTIFICATE",
           "fileStoreId": "8a0ec22f-d38b-4058-a85b-c3f94db83509",
           "documentUid": "8a0ec22f-d38b-4058-a85b-c3f94db83509",
@@ -154,7 +154,7 @@
           "status": "ACTIVE"
         },
         {
-          "id": "bac634d2-c06b-41c5-aefc-9e7f80d1b069",
+          "id": "91ba3346-8143-444b-96ce-09378abbc26c",
           "documentType": "OWNER.OCCUPANCYPROOF.RENTAGREEMENT",
           "fileStoreId": "cd909ce6-cb6a-4d10-862b-a6893107a616",
           "documentUid": "cd909ce6-cb6a-4d10-862b-a6893107a616",
@@ -164,7 +164,7 @@
       ],
       "units": [
         {
-          "id": "fdf76aec-4c44-4052-b68b-58308815dead",
+          "id": "8a8162ff-1b51-42d1-82a7-2416f455f292",
           "tenantId": "pb.amritsar",
           "floorNo": 1,
           "unitType": "ACRESTAURANT",
@@ -186,7 +186,7 @@
           "arv": 200000
         },
         {
-          "id": "147a37bd-585f-4830-bc3b-34a49349a364",
+          "id": "4f480c39-065f-46a4-95b2-9b9205e0b080",
           "tenantId": "pb.amritsar",
           "floorNo": 1,
           "unitType": "ACRESTAURANT",
@@ -212,8 +212,8 @@
       "auditDetails": {
         "createdBy": "f90534e4-e8f1-4564-8c65-f521999c0861",
         "lastModifiedBy": "f90534e4-e8f1-4564-8c65-f521999c0861",
-        "createdTime": 1594977818601,
-        "lastModifiedTime": 1594977818601
+        "createdTime": 1595245351520,
+        "lastModifiedTime": 1595245351520
       },
       "workflow": null
     }
