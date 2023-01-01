@@ -23,10 +23,10 @@
     "cypress-file-upload": "^4.0.6",
     "faker": "^4.1.0",
     "mochawesome": "^4.1.0",
-    "ts-loader": "^7.0.0",
+    "ts-loader": "^9.4.2",
     "typescript": "^3.8.3",
     "uuid": "^7.0.3",
-    "webpack": "^4.42.1"
+    "webpack": "^5.75.0"
   },
   "dependencies": {
     "axios": "^0.19.2",
